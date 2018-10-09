@@ -17,4 +17,4 @@ Step1: Downloads BADGERS
 $ git clone https://github.com/qlu-lab/BADGERS
 $ cd ./BADGERS
 ```
-In order to test whether BADGERS function correctly in your machine you can run [https://github.com/qlu-lab/BADGERS/wiki/Sample-test](sample test) for it
+In order to test whether BADGERS function correctly in your machine you can run [sample test](https://github.com/qlu-lab/BADGERS/wiki/Sample-test) for it
