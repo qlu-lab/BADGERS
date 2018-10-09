@@ -19,4 +19,4 @@ $ cd ./BADGERS
 ```
 In order to test whether BADGERS function correctly in your machine you can run [sample test](https://github.com/qlu-lab/BADGERS/wiki/Sample-test) for it
 
-### Step2: Downloads 
+### Step2: Downloads UK-biobank traits weight database and covariance
