@@ -57,7 +57,7 @@ the location of database files for all traits.
 
 - *--covariance:*
 
-the location of covariance files for all traits.
+    the location of covariance files for all traits.
 
 - *--gwas_path:*
 
@@ -72,7 +72,8 @@ Name of column holding SNP data.
 Name of column holding effect allele data.
 
 - *--non_effect_allele_column:*
-    Name of column holding "other/non effect" allele data.
+
+Name of column holding "other/non effect" allele data.
 
 - *--pvalue_column:*
 
