@@ -9,3 +9,5 @@ The software is developed and tested in Linux and Mac OS environments.
 - numpy
 - scipy
 - pandas
+
+Quick start
