@@ -51,3 +51,28 @@ python GAACT.py \
 --db_name selected_traits.csv 
 ```
 where
+*--model_db_path:*
+the location of database files for all traits
+
+*--covariance:*
+the location of covariance files for all traits
+
+*--gwas_path:*
+the location of input GWAS data(user input)
+
+*--snp_column:*
+Name of column holding SNP data.
+
+*--effect_allele_column:*
+Name of column holding effect allele data.
+
+*--non_effect_allele_column:*
+Name of column holding "other/non effect" allele data.
+
+*--pvalue_column:*
+Name of column holding p-values data.
+
+*--beta_column:*
+Name of column holding beta data.
+
+
