@@ -89,12 +89,11 @@ Location where results will be saved.
 
 *db_name:*
 
-Database file name for traits you want to perform analysis, for example if you want to test the association between 50_raw.db, 20016_raw.db... and input disease, for db_name input you should have a selected_traits.csv file like:
+Database file name for traits you want to perform analysis, for example if you want to test the association between 50_raw.db, 20016_raw.db and input disease, for db_name input you should have a selected_traits.csv file like:
 
 ```
 50_raw.db,Standing height
-20016_irnt.db,Fluid intelligence score
-... , ...
+20016_raw.db,Fluid intelligence score
 ```
 
 
