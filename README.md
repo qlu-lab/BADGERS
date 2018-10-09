@@ -94,7 +94,7 @@ Database file name for traits you want to perform analysis, for example if you w
 ```
 50_raw.db,Standing height
 20016_irnt.db,Fluid intelligence score
-...,...
+... , ...
 ```
 
 
