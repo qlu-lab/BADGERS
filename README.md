@@ -10,7 +10,7 @@ The software is developed and tested in Linux and Mac OS environments.
 - pandas
 
 ## Quick Start 
-This section demonstrates the fundamental usage of BADGERS, which is to conduct the association between selelcted UK-biobank traits (total of 4357) and a complex disease sumstats. If you want to run BADGERS with other complex traits. You need to create corresponding weight database and covariance to replace UK-biobank weight database and covariance as input in the sample below.
+This section demonstrates the fundamental usage of BADGERS, which is to conduct the association between selelcted UK-biobank traits (total of 4357) and a complex disease sumstats. If you want to run BADGERS with other complex traits. You need to create corresponding weight database and [covariance](https://github.com/qlu-lab/BADGERS/wiki/Create-db-files) to replace UK-biobank traits as input in the sample below.
 
 ### Step1: Downloads BADGERS
 ```
