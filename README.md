@@ -20,3 +20,12 @@ $ cd ./BADGERS
 In order to test whether BADGERS function correctly in your machine you can run [sample test](https://github.com/qlu-lab/BADGERS/wiki/Sample-test) for it
 
 ### Step2: Downloads UK-biobank traits weight database and covariance
+```
+$ wget ftp://ftp.biostat.wisc.edu/pub/lu_group/BADGERS/UK_biobank_input
+$ tar xf UK_biobank_input.tar.gz
+```
+This folder will include the following files/folders:
+```
+cov/ ## covariance file for traits
+weight_db/ weight database for traits
+```
