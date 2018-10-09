@@ -72,8 +72,7 @@ Name of column holding SNP data.
 Name of column holding effect allele data.
 
 - *--non_effect_allele_column:*
-
-Name of column holding "other/non effect" allele data.
+    Name of column holding "other/non effect" allele data.
 
 - *--pvalue_column:*
 
