@@ -51,43 +51,43 @@ python GAACT.py \
 --db_name selected_traits.csv 
 ```
 where
-*--model_db_path:*
+- *--model_db_path:*
 
 the location of database files for all traits.
 
-*--covariance:*
+- *--covariance:*
 
 the location of covariance files for all traits.
 
-*--gwas_path:*
+- *--gwas_path:*
 
 the location of input GWAS data(user input).
 
-*--snp_column:*
+- *--snp_column:*
 
 Name of column holding SNP data.
 
-*--effect_allele_column:*
+- *--effect_allele_column:*
 
 Name of column holding effect allele data.
 
-*--non_effect_allele_column:*
+- *--non_effect_allele_column:*
 
 Name of column holding "other/non effect" allele data.
 
-*--pvalue_column:*
+- *--pvalue_column:*
 
 Name of column holding p-values data.
 
-*--beta_column:*
+- *--beta_column:*
 
 Name of column holding beta data.
 
-*output_file:*
+- *output_file:*
 
 Location where results will be saved.
 
-*db_name:*
+- *db_name:*
 
 Database file name for traits you want to perform analysis, for example if you want to test the association between 50_raw.db, 20016_raw.db and input disease, for db_name input you should have a selected_traits.csv file like:
 
