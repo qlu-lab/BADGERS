@@ -52,27 +52,46 @@ python GAACT.py \
 ```
 where
 *--model_db_path:*
-the location of database files for all traits
+
+the location of database files for all traits.
 
 *--covariance:*
-the location of covariance files for all traits
+
+the location of covariance files for all traits.
 
 *--gwas_path:*
-the location of input GWAS data(user input)
+
+the location of input GWAS data(user input).
 
 *--snp_column:*
+
 Name of column holding SNP data.
 
 *--effect_allele_column:*
+
 Name of column holding effect allele data.
 
 *--non_effect_allele_column:*
+
 Name of column holding "other/non effect" allele data.
 
 *--pvalue_column:*
+
 Name of column holding p-values data.
 
 *--beta_column:*
+
 Name of column holding beta data.
+
+*output_file:*
+
+Location where results will be saved.
+
+*db_name:*
+
+Database file name for traits you want to perform analysis, for example if you want to test the association between 50_raw.db, 20016_raw.db... and input disease, for db_name file you should have:
+|   50_raw.db   | Standing height |
+| 20016_irnt.db | Fluid intelligence score |
+| ... | ... |
 
 
