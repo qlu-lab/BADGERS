@@ -90,9 +90,11 @@ where
 
     Database file name for traits you want to perform analysis, for example if you want to test the association between 50_raw.db,             20016_raw.db and input disease, for db_name input you should have a selected_traits.csv file like:
 <pre>
-  50_raw.db,    Standing height
-  20016_raw.db, Fluid intelligence score
+  50_raw,    Standing height
+  20016_raw, Fluid intelligence score
 </pre>
+
+##Reminder##:in order to perform analysis successfully, the name in db_name, model_db_path and covariance must be consistence. Which means that if we want to have a trait called 50_raw to perform the analysis, we must have corresponding db file 50_raw.db in model_db_path folder and covariance file 50_raw_cov.txt.gz and 50_raw_cov_tk.txt.gz in covariance folder.
 
 ## Multi-variate anlysis
 
