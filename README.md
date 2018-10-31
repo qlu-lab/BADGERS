@@ -93,7 +93,7 @@ where
 <pre>
     >   50_raw.db,    Standing height\
     >   20016_raw.db, Fluid intelligence score
-<\pre>
+</pre>
 ## Acknowledgement
 Part of the code is modified from MetaXcan https://github.com/hakyimlab/MetaXcan. We thank the authors for sharing the code.
 
