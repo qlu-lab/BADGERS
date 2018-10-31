@@ -98,6 +98,8 @@ where
 
 You can also perform multi-variate analysis with more than one traits as input, the command will be the same as above beside instead of using python BADGERS.py, you need to use python BADGERS_mult.py
 
+In this way all traits in db_name file will be involved in multi-variate analysis. We encourage to first perform selection process like clustering and make trait number involved in multi-variate analysis to be less than 100 for better statistical power.
+
 ## Acknowledgement
 Part of the code is modified from MetaXcan https://github.com/hakyimlab/MetaXcan. We thank the authors for sharing the code.
 
