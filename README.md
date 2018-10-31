@@ -12,8 +12,7 @@ The software is developed and tested in Linux and Mac OS environments.
 
 ## Quick Start 
 
-This section demonstrates the fundamental usage of BADGERS, which is to conduct the association between selelcted UK-biobank traits (total of 4357) and a complex disease sumstats. If you want to run BADGERS with other complex traits. You need to create corresponding [weight database](https://github.com/qlu-lab/BADGERS/wiki/Create-db-files) and [covariance](https://github.com/qlu-lab/BADGERS/wiki/Create-covariance-file) to replace UK-biobank traits as input in the sample below.
-
+This section demonstrates the fundamental usage of BADGERS, which is to conduct the association between selelcted UK-biobank traits (total of 4357) and a complex disease sumstats. If you want to run BADGERS with other complex traits. You need to create corresponding [weight database](https://github.com/qlu-lab/BADGERS/wiki/Create-db-files) and [covariance](https://github.com/qlu-lab/BADGERS/wiki/Create-covariance-file) to replace UK-biobank traits as input in the sample below. 
 ### Step1: Downloads BADGERS
 
 ```
@@ -38,7 +37,7 @@ UKbiobank_4357_inputlist.csv      ## name for traits
 Here is how you get the association between UK_biobank traits and complex disease
 
 ```
-python GAACT.py \
+python BADGERS.py \
 --model_db_path /weight_db \
 --covariance /cov \
 --gwas_path IGAP.txt \
@@ -94,6 +93,11 @@ where
   50_raw.db,    Standing height
   20016_raw.db, Fluid intelligence score
 </pre>
+
+## Multi-variate anlysis
+
+You can also perform multi-variate analysis with more than one traits as input, the command will be the same as above beside instead of using python BADGERS.py, you need to use python BADGERS_mult.py
+
 ## Acknowledgement
 Part of the code is modified from MetaXcan https://github.com/hakyimlab/MetaXcan. We thank the authors for sharing the code.
 
