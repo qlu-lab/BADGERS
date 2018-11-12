@@ -46,9 +46,9 @@ Here is how user gets the association between UK_biobank traits and complex dise
 
 ```
 python BADGERS.py \
---model_db_path UK_biobank_Round2_1110/weight_db \
---covariance UK_biobank_Round2_1110/cov \
---gwas_path UK_biobank_Round2_1110/GWAS.txt \
+--model_db_path UK_biobank_Round2/weight_db \
+--covariance UK_biobank_Round2/cov \
+--gwas_path UK_biobank_Round2/GWAS.txt \
 --snp_column MarkerName \
 --effect_allele_column Allele1 \
 --non_effect_allele_column Allele2 \
