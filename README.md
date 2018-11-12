@@ -102,7 +102,7 @@ where
   20016_raw, Fluid intelligence score
 </pre>
 
-**Reminder**: In order to perform analysis successfully, the name in db_name, model_db_path and covariance must be consistence. Which means that if we want to have a trait called 50_raw to perform the analysis, we must have corresponding db file 50_raw.db in model_db_path folder and covariance file 50_raw_cov.txt.gz and 50_raw_cov_tn.txt.gz in covariance folder.
+**Reminder**: In order to perform analysis successfully, the name in db_name, model_db_path and covariance must be consistent. Which means that if we want to have a trait called 50_raw to perform the analysis, we must have corresponding db file 50_raw.db in model_db_path folder and covariance file 50_raw_cov.txt.gz and 50_raw_cov_tn.txt.gz in covariance folder.
 
 ## Multi-variate anlysis
 
