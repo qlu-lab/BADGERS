@@ -114,3 +114,4 @@ By this, all traits in db_name file will be involved in multi-variate analysis. 
 Part of the code is modified from MetaXcan https://github.com/hakyimlab/MetaXcan. We thank the authors for sharing the code.
 
 ## Reference
+**Yan et al. (2018). Biobank-wide association scan identifies risk factors for late-onset Alzheimer’s disease and endophenotypes. bioRxiv, 468306.** [Link](https://www.biorxiv.org/content/early/2018/11/12/468306)
