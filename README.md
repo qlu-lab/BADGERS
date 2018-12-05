@@ -23,7 +23,7 @@ In order to test whether BADGERS function correctly in user's machine user can r
 
 ### Step2: Downloads UK-biobank traits weight database and covariance
 ```
-$ wget ftp://ftp.biostat.wisc.edu/pub/lu_group/BADGERS/UK_biobank_Round2.tar.gz
+$ wget ftp://ftp.biostat.wisc.edu/pub/lu_group/Projects/BADGERS/Data/UK_biobank_Round2.tar.gz
 $ tar xf UK_biobank_Round2.tar.gz
 ```
 This folder will include the following files/folders:
