@@ -110,6 +110,10 @@ In order to eliminate effect between traits, users can also perform multi-variat
 
 By this, all traits in db_name file will be involved in multi-variate analysis. We encourage to first perform selection process like clustering and make trait number involved in multi-variate analysis to be less than 100 for better statistical power. (Since more than 100 traits will make imputed inverse covariance matrix to be inaccurate)
 
+##FAQ
+
+Answer to [frequently asked question](https://github.com/qlu-lab/BADGERS/wiki/) can be found here.
+
 ## Acknowledgement
 Part of the code is modified from MetaXcan https://github.com/hakyimlab/MetaXcan. We thank the authors for sharing the code.
 
